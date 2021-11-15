@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>two_of_us</title>
+    <link rel='stylesheet' media='screen and (min-width: 901px)' href='home/light.css' />
+    <link rel='stylesheet' media='screen and (min-width: 601px) and (max-width: 900px)' href='home/tab.css' />
+    <link rel='stylesheet' media='screen and (min-width: 351px) and (max-width: 600px)' href='home/phone.css' />
+    <link rel='stylesheet' media='screen and (max-width: 350px)' href='home/miniphone.css' />
+    <link rel='stylesheet' media='screen and (max-height: 600px)' href='home/lowres.css' />
+    <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/7c7b8993a0.js" crossorigin="anonymous"></script>
+    </head>
+<body >
+
+    <section id="preload_box">
+        <div id="spinner"></div>
+    </section>
+
+    <audio controls autoplay loop>
+        <source src="home/home2.mpeg" type="audio/mpeg">
+    </audio>
+
+    <section id="login_sec">
+        <div id="parent_form">
+            <div id="sign"><i class="fas fa-times"></i></div>
+            <div id="sub_parent_form">
+                <div id="msg">w</div>
+                <form id="login_par">
+                    <input type="text" placeholder="Username" class="input_box" id="usr_id">
+                    <input type="password" placeholder="Password" class="input_box" id="pw">
+                    <div class="input_box" id="login_btn">explore</div>
+                </form>
+                <div id="login_contact">
+                    <a href="https://www.facebook.com/rohn.spiritz11.5378735/" target="_blank">
+                        <i id="fbL" class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rohn_1125/" target="_blank">
+                        <i id="igL" class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="loader">
+                <i id="success_load" class="far fa-snowflake"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="quote_sec">
+        <div id="quote_box">
+            <i id="quote_sign" class="fas fa-quote-left"></i>
+            <div id="quote">And still, after all this time,<br>The sun never says to the earth,"You owe Me."<br>Look what happens with a love like that, it lights the Whole Sky.</div>
+            <div id="author">- unknown</div>
+        </div>
+    </section>
+
+
+    <div class="toggle_btn closed_menu_btn opened_menu_btn" id="toggle_btn">
+        <div class ="_info" id="menu_info">menu (Esc)</div>
+        <div id="menu" class="parent_box">
+            <div class="bars short_bar1" id="line1"></div>
+            <div class="bars" id="line2"></div>
+            <div class="bars short_bar2" id="line3"></div>
+        </div>
+        
+        <div class ="_info" id="rvl_info">tap / click to reveal background</div>
+        <svg id="image_reveal" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class="svg-inline--fa fa-palette fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
+        <div id="btt_par">
+            <div class ="_info" id="bt_menu">back to top</div>
+            <svg id="back_to_top" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-up" class="svg-inline--fa fa-chevron-up fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path></svg>
+        </div>
+    </div>
+
+    <header class="closed_menu" id="nav_parent">
+        <nav id="navbar">
+            <ul id="link_par">
+                <li class="link active_parent"><a class="btns active_page" id="nav_home">Home</a></li>
+                <li class="link"><a href="story.html" class="btns" id="nav_story">Story</a></li>
+                <li class="link"><a href="memories.html" class="btns" id="nav_memories">Memories</a></li>
+                <li class="link"><a href="locate.html" class="btns" id="nav_locate">Locate</a></li>
+                <li class="link"><a href="about.html" class="btns" id="nav_about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="" id="hero_container">
+            <div id="hero_ttl">
+                <div class="first_line">
+                    <span class="demo title" id="two">two</span>
+                    <span class="demo title" id="of">o<br>f</span>
+                </div>
+                <span class="title" id="us">us</span>
+            </div>
+            <div id="hero_description">
+                
+            </div>
+            <a type="button" class="animate_explore" id="explore">explore</a>
+        </div>
+    </section>
+
+    <section id="contents">
+        <h2 class="demo" id="contents_h2">Contents</h2>
+        <div id="content_box">
+            <div class="sub_contents" id="sect1">
+                <a class="ttl" id="subject">Subject</a>
+                <div class="desc" id="subject_desc">- Why this website ?</div>
+            </div>
+            <div class="sub_contents" id="sect2">
+                <a class="ttl" id="counter">Counting stars</a>
+                <div class="desc" id="counter_desc">- The day since we are together .</div>
+            </div>
+            <div class="sub_contents" id="sect3">
+                <a class="ttl" id="narrative">Narrative</a>
+                <div class="desc" id="narrative_desc">- Long story , my version .</div>
+            </div>
+            <div class="sub_contents" id="sect4">
+                <a class="ttl" id="contact_us">Connect</a>
+                <div class="desc" id="contact_us_desc">- Reach out for us.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subject_sec">
+        <h2 class="demo" id="subj_ttl">subject</h2>
+        <div class="description" id="subject_write">
+            <p id="subjx">&emsp;&emsp;<span id="first_letter" style="margin-right: 0.1em;">W</span>elcome to <strong>'two_of_us'</strong>. I am Rohan, designer of this website. I designed this website for my own and my girl just to give a little lovely touch to our relationship. I have been designing and planning this for months and now I have launched it. This project may not be the best version of what I could create or I will in future but trust me, everything I typed, designed and planned is filled with every single bit of emotion and love present inside me. This project, is more than just a piece of my day-night work and everything else. None of us saw this coming and now we are together. This is our little story.</p>
+            <img src="images/subject_img.jpg" alt="weee" class="img_round" id="subj_img">
+        </div>
+        <div id="subj_circle"></div>
+    </section>
+
+    <section id="counter_sec">
+        <h2 class="demo" id="counter_ttl">Counting stars</h2>
+        <div class="stars">
+            <div id="star1"></div>
+            <div id="star2"></div>
+            <div id="star3"></div>
+        </div>
+        <div class="counter_box" id="counter_parent">
+            <div class="days_par"><span id="days"></span><span id="day_sub">days</span></div>
+            <div class="years_par"><span id="years"></span><span id="yr_sub"></span></div>
+        </div>
+    </section>
+
+    <section id="narrative_sec">
+        <h2 class="demo" id="narate_ttl">narrative</h2>
+        <h3 id="narrate_subttl">the Unexpected</h3>
+        <div id="narrative_para">
+            &emsp;&emsp;<span id="first_letter" style="margin-right: 0.1em;">w</span>e know each other since 2018, back when we were together in academics. She was just another pretty girl. Kind, down to earth, clever, socially active, helpful and more. We barely knew each other, barely talked and felt nothing about each other.
+            <br>&emsp;&emsp;Almost two years passed. Pandemic arrived, everything was shut down except emergancy services. Social media kept us in touch. We used to share memes and reply to each others' stories. Someday she used to extend our conversation a little bit beyond memes and stories.
+            <br>&emsp;&emsp;Times passed, we kept texting but this time texts were longer. We moved on from barely knowing each other to understanding each other. We argued, we laughed, we had fun and fights, we went with the flow truly ignoring what was actually happening. We were getting used to each other. Sometimes not-texting-back drove her crazy as if I must reply to her within few minutes. Everything was happening in front of us and still we thought we were just good friends.
+            <br>&emsp;&emsp;From her perspective, she fell for me. I was the only boy who was this close to her. She was a very sensitive girl. And our friendship was almost 3 months old now. She never expressed, I didn't care that time because I was an insensitive person. Expressing her feelings will ruin our nice little friendship, this is what she wondered and never said a word. On the other hand I never felt for her, I kept explaining that it's just a temporary feeling and she will move on anyway but she denied and continued. 
+            <br>&emsp;&emsp;One day I realised I will never know what destiny has planned and I will never get a girl this kind, loving and caring. So I agreed to stay with her. We moved farther with time but got close to each other. Time told me how much she loves me and how I should love her back. She brought me back to the world I left behind. Today we are in a happy relationship and we truly love each other. I still fail to understand how it happened but I know that it was a perfect choice to have her in my life. And the best thing i think about our relationship is we don't need words to express anymore. She understands me so much. I still fail to do that, women are always hard to understand. But I try and she knows that. And she loves me enough.
+        </div>
+        <a href="story.html" id="read_story">read full story</a>
+    </section>
+
+    <section id="connect_sec">
+        <h2 class="demo" id="connect_ttl">Connect</h2>
+        <div id="contacts">
+
+            <ul>
+                <li><a id="fb1" href="https://www.facebook.com/rohn.spiritz11.5378735/" target="_blank"><div id="icon_par1"><i class="fab fa-facebook"></i></div></a></li>
+                <li><a id="ig1" href="https://www.instagram.com/rohn_1125/" target="_blank"><div id="icon_par2"><i class="fab fa-instagram"></i></div></a></li>
+                <!-- <li><a id="ig2" href="https://www.instagram.com/payal___2506/" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="copyrights_sec">
+        <div id="crdit">Artworks used : <a href="https://aenamiart.artstation.com/" target="_blank">aenamiart.artstation.com<i class="fas fa-external-link-alt"></i></a></div>
+        <div id="cpr">Copyright &copy; Rohan Chavan</div>
+    </section>
+
+    <script src="home/home.js"></script>
+
+</body>
+</html>
